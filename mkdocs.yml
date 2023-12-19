@@ -1,3 +1,28 @@
 site_name: FrontGR Docs
+site_description: "Документация FrontGR"
+site_author: "FrontGR Dev"
+repo_name: "frontgr/docs"
+repo_url: "https://github.com/frontgr/docs"
+
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    code: Fira Code
+  language: ru
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        accent: red
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+extra:
+  generator: false
+  hide_footer: true
