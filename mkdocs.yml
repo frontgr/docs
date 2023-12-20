@@ -6,6 +6,8 @@ repo_url: "https://github.com/frontgr/docs"
 
 theme:
   name: material
+  features:
+    - content.code.copy
   logo: assets/logo.png
   favicon: assets/favicon.png
   font:
@@ -26,3 +28,11 @@ theme:
 extra:
   generator: false
   hide_footer: true
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
