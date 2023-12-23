@@ -1,35 +1,114 @@
-# Правила организации README
+# Пример-шаблон README
 
-1. Заголовок проекта: Используйте заголовок первого уровня для названия проекта.
-   Пример: `# Название проекта`
+README пишутся коротко, по сути, на английском. За основу README брать [README FUNHAUS-a](https://github.com/frontgr/funhaus/blob/main/README.md).
 
-2. Описание проекта: Предоставьте краткое описание проекта, включая его цель и функциональность.
-   Пример: `Описание проекта`
+---
 
-3. Установка: Предоставьте инструкции по установке и настройке проекта.
-   Пример:
+<Название проекта>
 
-   ```
-   ## Установка
-   1. Склонируйте репозиторий.
-   2. Установите зависимости командой `npm install`.
-   3. Запустите проект командой `npm start`.
-   ```
+Короткое описание проекта. Тут должна быть ссылка на [деплой](https://frontgr.github.io/funhaus/).
 
-4. Использование: Предоставьте примеры использования проекта и объясните его основные функции.
+## Preview of the project
 
-5. Вклад в проект: Предоставьте информацию о том, как другие разработчики могут внести свой вклад в проект.
-   Пример: `## Вклад в проект`
+Тут должен быть скриншот(ы) проекта и ссылка на макет, если есть, [например так.](https://www.figma.com/file/VYw8ju5ToInkoS4C4XaQ2R/Fun-Haus-v1.0?type=design&node-id=0%3A1&mode=design&t=Hh5f9Jmwv0K7C4p7-1).
 
-6. Лицензия: Укажите информацию о лицензии проекта.
+---
 
-7. Ссылки: Добавьте полезные ссылки на документацию, руководства и другие ресурсы.
-   Пример:
+### Technologies Used
 
-   ```
-   ## Ссылки
-   - [Документация по используемой библиотеке](https://example.com/docs)
-   - [Руководство пользователя](https://example.com/guide)
-   ```
+Тут идет нумерованный список технологий, которые используются, например:
 
-8. Авторы: Укажите информацию о авторах проекта.
+1. BEM notation
+2. SCSS
+3. Docker
+4. Vanilia JS
+
+Ниже указываются другие технические особенности, например, что в проекте есть слайдеры, кастомные курсоры и т.п.
+
+---
+
+### Formatting rules
+
+Пишем о том, что в проекте мы используем правила форматирования Prettier, в такой форме:
+
+_We use Prettier for formatting our text. See more about our configuration [here](https://frontgr.github.io/docs/prettierrc/prettierrc/)._
+
+---
+
+### How to run Docker
+
+Указываем, как запустить Docker:
+
+You should clone the repository, install Docker and run this command in the same directory:
+
+```bash
+docker-compose up --build
+```
+
+You can read more about Docker [here](https://frontgr.github.io/docs/docker/docker/).
+
+---
+
+Указываем, что в проекте есть лицензия:
+
+Project has [MIT License](https://github.com/frontgr/funhaus/blob/main/LICENSE).
+
+## Важно - в каждом проекте нужна лицензия MIT
+
+Добавляем файл:
+
+![Alt text](../assets/image.png)
+
+Пишем в названии LICENSE и нажимаем на _Choose a license template_:
+
+![Alt text](../assets/image-1.png)
+
+Выбираем слева MIT License, пишем год и имя нашей организации коммитим изменения:
+
+![Alt text](../assets/image-2.png)
+
+## MD-версия README FUNHAUS
+
+````md
+# FUNHAUS
+
+Simple website of architecture company. Deploy you can check [here](https://frontgr.github.io/funhaus/).
+
+## Preview of the project
+
+![Preview image](src/assets/image.png)
+Link to Figma layout is [here](https://www.figma.com/file/VYw8ju5ToInkoS4C4XaQ2R/Fun-Haus-v1.0?type=design&node-id=0%3A1&mode=design&t=Hh5f9Jmwv0K7C4p7-1).
+
+---
+
+### Technologies Used
+
+1. BEM notation
+2. SCSS
+3. Docker
+4. Vanilia JS
+
+Also FUNHAUS has slider, custom cursor and theme changing.
+
+---
+
+### Formatting rules
+
+We use Prettier for formatting our text. See more about our configuration [here](https://frontgr.github.io/docs/prettierrc/prettierrc/).
+
+---
+
+### How to run Docker
+
+You should clone the repository, install Docker and run this command in the same directory:
+
+    ```bash
+    docker-compose up --build
+    ```
+
+You can read more about Docker [here](https://frontgr.github.io/docs/docker/docker/).
+
+---
+
+Project has [MIT License](https://github.com/frontgr/funhaus/blob/main/LICENSE).
+````
