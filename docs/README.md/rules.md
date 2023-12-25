@@ -57,15 +57,15 @@ Project has [MIT License](https://github.com/frontgr/funhaus/blob/main/LICENSE).
 
 Добавляем файл:
 
-![Alt text](../assets/image.png)
+![Alt text](../assets/image.webp)
 
 Пишем в названии LICENSE и нажимаем на _Choose a license template_:
 
-![Alt text](../assets/image-1.png)
+![Alt text](../assets/image-1.webp)
 
 Выбираем слева MIT License, пишем год и имя нашей организации коммитим изменения:
 
-![Alt text](../assets/image-2.png)
+![Alt text](../assets/image-2.webp)
 
 ## MD-версия README FUNHAUS
 

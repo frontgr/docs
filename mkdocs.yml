@@ -8,8 +8,8 @@ theme:
   name: material
   features:
     - content.code.copy
-  logo: assets/logo.png
-  favicon: assets/favicon.png
+  logo: assets/logo.webp
+  favicon: assets/favicon.webp
   font:
     code: Fira Code
   language: ru
