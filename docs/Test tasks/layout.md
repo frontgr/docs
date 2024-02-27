@@ -4,7 +4,7 @@
 Сверстать макет формы, предоставленный в Figma, используя SCSS для стилизации и чистый HTML. Выполнить деплой верстки на GH pages или на Vercel, по желанию. 
 
 ![alt text](image-6.png)
-[Макет карточки блога в Figma.](https://www.figma.com/file/ZvEVdWwZcA5mwfdBxpJ54J/Untitled?type=design&node-id=1%3A5&mode=design&t=8thkKNYgcpxwC2wf-1)
+[Макет формы в Figma.](https://www.figma.com/file/ZvEVdWwZcA5mwfdBxpJ54J/Untitled?type=design&node-id=1%3A5&mode=design&t=8thkKNYgcpxwC2wf-1)
 
 ### **Результат работы**
 Ссылка на деплой верстки на **GitHub pages** или на **Vercel**. Инструкции о том, как это сделать, можно найти в сети. 
