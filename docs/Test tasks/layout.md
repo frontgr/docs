@@ -4,13 +4,13 @@
 Сверстать макет карточки блога, предоставленный в Figma, используя SCSS для стилизации и чистый HTML. Выполнить деплой верстки на GH pages или на Vercel, по желанию. 
 
 ![alt text](image-6.png)
-[Макет карточки блога в Figma.](https://www.figma.com/file/QaeESNKNUtMMqFvfPnjQ5N/Blog-Card-Component---test-task-SCSS?type=design&node-id=8-25&mode=design&t=Z7zUlCpUu8CzzTON-0)
+[Макет карточки блога в Figma.](https://www.figma.com/file/ZvEVdWwZcA5mwfdBxpJ54J/Untitled?type=design&node-id=1%3A5&mode=design&t=8thkKNYgcpxwC2wf-1)
 
 ### **Результат работы**
 Ссылка на деплой верстки на **GitHub pages** или на **Vercel**. Инструкции о том, как это сделать, можно найти в сети. 
 
 ### Инструкции
-1. Используйте [предоставленный макет Figma](https://www.figma.com/file/QaeESNKNUtMMqFvfPnjQ5N/Blog-Card-Component---test-task-SCSS?type=design&node-id=8-25&mode=design&t=Z7zUlCpUu8CzzTON-0)
+1. Используйте [предоставленный макет Figma](https://www.figma.com/file/ZvEVdWwZcA5mwfdBxpJ54J/Untitled?type=design&node-id=1%3A5&mode=design&t=8thkKNYgcpxwC2wf-1)
  для верстки карточки блога.
 2. Используйте SCSS для стилизации.
 3. Разметка должна быть выполнена с помощью чистого HTML.
