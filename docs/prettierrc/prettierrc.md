@@ -6,7 +6,7 @@
 {
   "semi": true,
   "singleQuote": false,
-  "tabWidth": 2,
+  "tabWidth": 4,
   "jsxSingleQuote": false,
   "brackeSpacing": true,
   "trailingComma": "all",
